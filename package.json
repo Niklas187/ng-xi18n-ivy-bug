@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "ex": "ng xi18n --ivy"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "10.1.3",
+    "@angular/localize": "10.1.3",
     "@angular/common": "10.1.3",
     "@angular/compiler": "10.1.3",
     "@angular/core": "10.1.3",
